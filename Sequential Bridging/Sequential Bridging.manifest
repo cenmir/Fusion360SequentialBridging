@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "addin",
+    "author": "Mirza Cenanovic",
+    "description": {
+        "": "Create support geometry for overhanging holes when 3D printing, also known as sequential bridging."
+    },
+    "version": "2.0.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac",
+    "editEnabled": true,
+    "iconFilename": "AddInIcon.svg"
+}

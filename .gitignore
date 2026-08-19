@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Fusion writes its own debug config here every time you press Debug
+Sequential Bridging/.vscode/
+
+# Local helpers, not part of what gets installed
+tools/

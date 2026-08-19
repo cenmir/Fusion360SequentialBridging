@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- A plate seen from above with a hole in it and one bridge across the hole -->
+  <defs>
+    <mask id="hole">
+      <rect width="64" height="64" fill="white"/>
+      <circle cx="32" cy="32" r="16" fill="black"/>
+    </mask>
+    <clipPath id="insideHole">
+      <circle cx="32" cy="32" r="16"/>
+    </clipPath>
+  </defs>
+  <rect x="6" y="6" width="52" height="52" rx="6" fill="#C8C8C8" mask="url(#hole)"/>
+  <rect x="0" y="27" width="64" height="10" fill="#E58F2A" clip-path="url(#insideHole)"/>
+</svg>
