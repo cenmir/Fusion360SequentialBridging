@@ -1,20 +1,15 @@
 {
-	"version":	"0.2.0",
-	"configurations":	[{
-			"name":	"Python: Attach",
-			"type":	"python",
-			"request":	"attach",
-			"pathMappings":	[{
-					"localRoot":	"${workspaceRoot}",
-					"remoteRoot":	"${workspaceRoot}"
-				}],
-			"osx":	{
-				"filePath":	"${file}"
-			},
-			"windows":	{
-				"filePath":	"${file}"
-			},
-			"port":	9000,
-			"host":	"localhost"
-		}]
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "name":  "Fusion 360: Attach",
+                               "type":  "debugpy",
+                               "request":  "attach",
+                               "connect":  {
+                                               "host":  "localhost",
+                                               "port":  9000
+                                           },
+                               "justMyCode":  true
+                           }
+                       ]
 }
